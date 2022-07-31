@@ -1,0 +1,52 @@
+.container{
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 'a a a b b'
+                          'a a a b b'
+                          'c c d d d'
+                          'c c e e e';
+     width: 500PX;
+     margin: auto;
+     height: 50vh;
+     padding: 50px;
+     padding-top: auto;
+}
+
+.div1{
+    background-color: hsl(6, 94%, 65%);
+    grid-area: a;
+}
+
+.div2{
+    background-color: hsl(36, 97%, 68%);
+    grid-area: b; 
+}
+
+.div3{
+    background-color:hsl(156, 77%, 40%);
+    grid-area: c;
+}
+
+.div4{
+    background-color: hsl(186, 72%, 50%);
+    grid-area: d;
+}
+
+.div5{
+    background-color: hsl(186, 72%, 50%);
+    grid-area: e;
+}
+
+
+
+/*@media (min-width:300px) {
+    .container{
+        width: 200px;
+    }
+}
+
+@media (max-width: 760px){
+    .container {
+        width: 500px;
+    }
+}*/
